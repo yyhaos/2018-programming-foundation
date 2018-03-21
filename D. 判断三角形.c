@@ -1,12 +1,12 @@
 #include<stdio.h>
-#include<math.h>
+#include<math.h>    //need <math.h> to use the function sqrt() or Compile Error
 int main ()
 {
     double line_a,line_b,line_c;
     double area,perimeter,half_p;
 
     scanf("%lf%lf%lf",&line_a,&line_b,&line_c);
-   // printf("%lf %lf %lf",line_a,line_b,line_c);
+    //printf("%lf %lf %lf",line_a,line_b,line_c);
     perimeter=line_a+line_b+line_c;
     half_p=perimeter/2.0;
     area= half_p*( half_p-line_a)*( half_p-line_b)*( half_p-line_c);
