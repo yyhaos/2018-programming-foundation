@@ -6,4 +6,6 @@ password : 12345678
 Week 2
 Problems : http://www.bnuoj.com/v3/contest_show.php?cid=9348 
 password : 12345678
-
+Week 3
+Problems : http://www.bnuoj.com/v3/contest_show.php?cid=9360
+password : 12345678
