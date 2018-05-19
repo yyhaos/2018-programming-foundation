@@ -16,3 +16,6 @@ password : 12345678
 Week 6
 Problems : http://www.bnuoj.com/v3/contest_show.php?cid=9381
            http://www.bnuoj.com/v3/contest_show.php?cid=9384
+Week 8
+Problems : http://acm.bnu.edu.cn/v3/contest_show.php?cid=9408
+           http://acm.bnu.edu.cn/v3/contest_show.php?cid=9411
