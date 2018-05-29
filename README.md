@@ -9,13 +9,16 @@ password : 12345678
 Week 3
 Problems : http://www.bnuoj.com/v3/contest_show.php?cid=9360
 password : 12345678
-Week 4 is on vacation
+Week 4	 : on vacation
 Week 5
 Problems : http://acm.bnu.edu.cn/v3/contest_show.php?cid=9372
 password : 12345678
-Week 6
+Week 6	
+Week 7 
 Problems : http://www.bnuoj.com/v3/contest_show.php?cid=9381
            http://www.bnuoj.com/v3/contest_show.php?cid=9384
 Week 8
 Problems : http://acm.bnu.edu.cn/v3/contest_show.php?cid=9408
            http://acm.bnu.edu.cn/v3/contest_show.php?cid=9411
+Week 9
+Problems : http://acm.bnu.edu.cn/v3/contest_show.php?cid=9417
