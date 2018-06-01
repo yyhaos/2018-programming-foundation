@@ -1,0 +1,66 @@
+Initialize finish
+Input begin
+Input students total number( 1 <= x <= 5000 ) :
+Input subjects total number( 1 <= x <= 15 ) :
+Input the name of subject 1 :
+Input the name of subject 2 :
+Input the name of subject 3 :
+Input 1 student's name :
+Input 1 student's score of Math :
+Input 1 student's score of Chinese :
+Input 1 student's score of English :
+Input 2 student's name :
+Input 2 student's score of Math :
+Input 2 student's score of Chinese :
+Input 2 student's score of English :
+Input 3 student's name :
+Input 3 student's score of Math :
+Input 3 student's score of Chinese :
+Input 3 student's score of English :
+Input 4 student's name :
+Input 4 student's score of Math :
+Input 4 student's score of Chinese :
+Input 4 student's score of English :
+Input 5 student's name :
+Input 5 student's score of Math :
+Input 5 student's score of Chinese :
+Input 5 student's score of English :
+Input finish
+
+Number	Name	Average
+1	yyh	60.0
+2	isaac	60.0
+3	jack	38.3
+4	mike	18.2
+5	ruby	58.7
+
+Subjects	Average
+Math		74.1
+Chinese		77.5
+English		83.5
+
+Begin find "yyh"
+Number	Name	Math	Chinese	English
+1	yyh	100.0	100.0	100.0
+
+Begin find "Nobody"
+No one called "Nobody" 
+
+Begin find "Math"
+Number	Name	Math
+1	yyh	100.0
+2	isaac	100.0
+3	jack	63.5
+4	mike	0.0
+5	ruby	0.0
+
+Begin find "C++"
+No subject called "C++" , mind the Case
+
+There are 5 students in total
+Number	Name	Math	Chinese	English
+1	yyh	100.0	100.0	100.0
+2	isaac	100.0	100.0	100.0
+3	jack	60.5	67.5	63.5
+4	mike	12.1	22.2	56.7
+5	ruby	98.0	98.0	97.5

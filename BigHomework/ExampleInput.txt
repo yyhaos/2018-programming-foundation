@@ -1,0 +1,7 @@
+5	3
+	Math	Chinese	English
+yyh	100	100	100
+isaac	100	100	100
+jack	60.5	67.5	63.5
+mike	12.1	22.2	56.7
+ruby	98	98	97.5
