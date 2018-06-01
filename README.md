@@ -17,8 +17,10 @@ Week 6
 Week 7 
 Problems : http://www.bnuoj.com/v3/contest_show.php?cid=9381
            http://www.bnuoj.com/v3/contest_show.php?cid=9384
-Week 8
+Week 11
 Problems : http://acm.bnu.edu.cn/v3/contest_show.php?cid=9408
            http://acm.bnu.edu.cn/v3/contest_show.php?cid=9411
-Week 9
+Week 12
 Problems : http://acm.bnu.edu.cn/v3/contest_show.php?cid=9417
+week 13
+Problems : http://acm.bnu.edu.cn/v3/contest_show.php?cid=9427
