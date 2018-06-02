@@ -55,7 +55,7 @@ void Input()
     }
     for(int i = 1 ; i<=stu_number ; i++)
     {
-        printf("Input %d student's name :\n", i);
+        printf("Input No. %d student's name :\n", i);
         scanf("%s", stus[i].name);
         for(int j = 1 ; j<=sub_number ; j++)
         {
@@ -68,6 +68,27 @@ void Input()
     return ;
 }
 
+void PrintTitle()
+{
+    printf("Number\tName");
+    for(int i = 1 ; i<=sub_number ; i++)
+    {
+        printf("\t%s", sub_name[i]);
+    }
+    printf("\n");
+    return ;
+}
+
+void PrintStu(int number)
+{
+    printf("%d\t%s", number, stus[number].name);
+    for(int j = 1 ;j<=sub_number;j++)
+    {
+        printf("\t%.1f", stus[number].score[j]);
+    }
+    printf("\n");
+}
+
 void SeeAllStudent()
 {
     if(stu_number==0)
@@ -76,20 +97,10 @@ void SeeAllStudent()
         return ;
     }
     printf("\nThere are %d students in total\n", stu_number);
-    printf("Number\tName");
-    for(int i = 1 ; i<=sub_number ; i++)
-    {
-        printf("\t%s", sub_name[i]);
-    }
-    printf("\n");
+    PrintTitle();
     for(int i = 1 ; i<=stu_number ; i++)
     {
-        printf("%d\t%s", i, stus[i].name);
-        for(int j = 1 ;j<=sub_number;j++)
-        {
-            printf("\t%.1f", stus[i].score[j]);
-        }
-        printf("\n");
+        PrintStu(i);
     }
     return ;
 }
@@ -141,18 +152,8 @@ void FindName(char name[])
     {
         if(strcmp(name,stus[i].name)==0)
         {
-            printf("Number\tName");
-            for(int i = 1 ; i<=sub_number ; i++)
-            {
-                printf("\t%s", sub_name[i]);
-            }
-            printf("\n");
-            printf("%d\t%s", i, stus[i].name);
-            for(int j = 1 ;j<=sub_number;j++)
-            {
-                printf("\t%.1f", stus[i].score[j]);
-            }
-            printf("\n");
+            PrintTitle();
+            PrintStu(i);
             return ;
         }
     }
@@ -169,7 +170,7 @@ void FindSub(char name[])
             printf("Number\tName\t%s\n", name);
             for(int j=1; j<=stu_number;j++)
             {
-                printf("%d\t%s\t%.1f\n", j, stus[j].name, stus[j].score[j]);
+                printf("%d\t%s\t%.1f\n", j, stus[j].name, stus[j].score[i]);
             }
             return ;
         }
@@ -186,13 +187,15 @@ int main ()
     void CountSubAverage();
     void FindName(char name[]);
     void FindSub(char name[]);
+    void PrintTitle();
+    void PrintStu(int number);
     void SeeAllStudent();
 
     freopen("ExampleInput.txt","r",stdin);
-    freopen("ExampleOutput.txt","w",stdout);
-
     Initialize();
     Input();
+
+    freopen("ExampleOutput.txt","w",stdout);
     CountStuAverage();
     CountSubAverage();
     FindName("yyh");
