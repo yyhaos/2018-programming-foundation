@@ -1,5 +1,6 @@
 #include<stdio.h>
-//Problem   :   http://acm.bnu.edu.cn/v3/contest_show.php?cid=9408#problem/0int main ()
+//Problem   :   http://acm.bnu.edu.cn/v3/contest_show.php?cid=9408#problem/0
+int main ()
 {
     int n;
     char eight[1000],six[1000],flag=1;
