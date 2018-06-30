@@ -1,5 +1,5 @@
-﻿#Qusetions:
-#1	static
+# Qusetions:
+# 1	static
 	int f(int n)    //with static
 	{
  	   static int ff=1;    //static not only work in this .cpp file , see static_2 for extral example
@@ -17,12 +17,12 @@
             return 0;
         }
 
-#2	which is the correct character constant
+# 2	which is the correct character constant
 	'\010'	or "A"	or D	or -285
 	'A' == '\001' == '\x41' == 65
-#3	printf("%f", 0.5)==> 0.500000
+# 3	printf("%f", 0.5)==> 0.500000
 	there are always 6 digits behind the decimal point	
-#Ans:
+# Ans:
 1	static.cpp	static_2.cpp	static_ff.cpp
 2	character constant.cpp
 3	test%f.cpp
