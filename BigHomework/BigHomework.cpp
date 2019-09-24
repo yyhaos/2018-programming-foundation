@@ -195,7 +195,7 @@ int main ()
     Initialize();
     Input();
 
-    freopen("ExampleOutput.txt","w",stdout);
+//    freopen("ExampleOutput.txt","w",stdout);
     CountStuAverage();
     CountSubAverage();
     FindName("yyh");

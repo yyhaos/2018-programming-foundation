@@ -14,7 +14,7 @@ int main ()
         ans =(x+1)*(x+1)+2*x+1/x;
         if(x>=0)
             ans=sqrt(x);
-        printf("%.2lf",ans);
+        printf("%.2f",ans);
         if(n!=0)
             printf("\n");
     }
